@@ -29,7 +29,7 @@ var Aeroporti ={
 
 //istruzioni per calcolare la distanza che un aereo puo' ancora percorrere
 var listaconsumo = [];
-for(var i=0; i<4; i++){
+for(var i=0; i<Aerei.kerosene.length; i++){
 
   listaconsumo.push(riservaRimasta(Aerei.kerosene[i], Aerei.consumo[i]));
 
